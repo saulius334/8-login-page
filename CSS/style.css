@@ -1,0 +1,75 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #aaa;
+}
+main {
+    display: flexbox;
+    width: 80%;
+    margin-inline: 10%;
+    margin-top: 300px;
+}
+.first-column {
+    margin-top: 10px;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+h3 {
+    margin: 0;
+}
+h1 {
+    margin-top: 0;
+    font-size: 50px;
+color: #47422A;
+}
+hr {
+    border-color: #47422A;
+    margin: 3px;
+    display: inline-block;
+    width: 25%;
+}
+.inputbox {
+    outline: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    background-color: gainsboro;
+    border: 2px solid #47422A;
+}
+.inputbox.signin {
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    padding: 7px 95px;
+    transition: 0.5s;
+}
+.inputbox.signin:hover {
+    color:white;
+    background-color: #47422A;
+}
+p > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s;
+}
+p > a:hover {
+    color: white;
+}
+
+.sanik {
+    float: right;
+}
+.socialmedia {
+    color: white;
+    margin: 15px;
+    font-size: 40px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.socialmedia:hover {
+    color: blue;
+    animation: infinite;
+}
